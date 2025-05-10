@@ -1,5 +1,13 @@
+import CardList from "@/component/CardList";
 import CategoryBadges from "@/component/CategoryBadges";
-import { Image, ScrollView, Text, TouchableOpacity, View } from "react-native";
+import {
+  Button,
+  Image,
+  ScrollView,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 
 export default function Index() {
   return (
@@ -72,7 +80,40 @@ export default function Index() {
             Footwear
           </Text>
           <Text style={{ marginLeft: 20, marginTop: 3 }}>KWD 29.99</Text>
+          <View
+            style={{
+              borderWidth: 1,
+              alignSelf: "flex-start",
+              // width: 110,
+              borderRadius: 5,
+              // height: 40,
+              backgroundColor: "blue",
+              borderColor: "blue",
+              marginLeft: 20,
+              marginTop: 5,
+              flexDirection: "row",
+              top: 5,
+            }}
+          >
+            <Button title="Add to Cart" color={"white"} />
+          </View>
+          <View
+            style={{
+              borderWidth: 1,
+              borderColor: "red",
+              // width: 110,
+              alignSelf: "flex-start",
+              borderRadius: 5,
+              // height: 40,
+              backgroundColor: "red",
+              marginLeft: 140,
+              top: -35,
+            }}
+          >
+            <Button title="Add to Favorites" color={"white"} />
+          </View>
         </View>
+        <CardList />
       </View>
     </View>
   );
