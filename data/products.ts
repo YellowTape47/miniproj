@@ -7,7 +7,7 @@ interface Products {
 }
 const product: Products[] = [
   {
-    id: 1,
+    // id: 1,
     title: "Running Shoes",
     price: 29.99,
     category: "Footwear",
@@ -15,7 +15,7 @@ const product: Products[] = [
       "https://runkeeper.com/cms/wp-content/uploads/sites/4/2021/04/SS23_GEL-CUMULUS-25_Highlight_CHIASI0016_SH09_03_FINAL-640x341.jpg",
   },
   {
-    id: 1,
+    // id: 1,
     title: "Running Shoes",
     price: 29.99,
     category: "Footwear",
@@ -23,7 +23,7 @@ const product: Products[] = [
       "https://runkeeper.com/cms/wp-content/uploads/sites/4/2021/04/SS23_GEL-CUMULUS-25_Highlight_CHIASI0016_SH09_03_FINAL-640x341.jpg",
   },
   {
-    id: 1,
+    // id: 1,
     title: "Running Shoes",
     price: 29.99,
     category: "Footwear",
@@ -31,7 +31,7 @@ const product: Products[] = [
       "https://runkeeper.com/cms/wp-content/uploads/sites/4/2021/04/SS23_GEL-CUMULUS-25_Highlight_CHIASI0016_SH09_03_FINAL-640x341.jpg",
   },
   {
-    id: 1,
+    // id: 1,
     title: "Running Shoes",
     price: 29.99,
     category: "Footwear",
@@ -39,7 +39,7 @@ const product: Products[] = [
       "https://runkeeper.com/cms/wp-content/uploads/sites/4/2021/04/SS23_GEL-CUMULUS-25_Highlight_CHIASI0016_SH09_03_FINAL-640x341.jpg",
   },
   {
-    id: 1,
+    // id: 1,
     title: "Running Shoes",
     price: 29.99,
     category: "Footwear",

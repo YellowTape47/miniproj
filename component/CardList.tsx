@@ -1,20 +1,27 @@
 import product from "@/data/products";
 import React from "react";
 import { Button, Image, StyleSheet, Text, View } from "react-native";
-// interface CardDetails {
-//   image: string;
-//   title: string;
-//   category: string;
-//   price: string;
-// }
+interface CardDetails {
+  image: string;
+  title: string;
+  category: string;
+  price: string;
+}
 
 const CardList = () => {
   return (
-    // <View style={{ alignItems: "center" }}>
-
-    <View
+    <View>
       {product.map((item) => (
-        <View key={item.id}>
+        <View
+          key={item.id}
+          style={{
+            backgroundColor: "white",
+            height: 250,
+            width: "100%",
+            borderRadius: 10,
+            marginBottom: 10,
+          }}
+        >
           <Image
             source={{
               uri: item.image,
@@ -75,14 +82,7 @@ const CardList = () => {
           </View>
         </View>
       ))}
-      style={{
-        backgroundColor: "white",
-        height: 250,
-        width: "100%",
-        borderRadius: 10,
-      }}
-    ></View>
-    // </View>
+    </View>
   );
 };
 
